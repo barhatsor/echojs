@@ -348,7 +348,7 @@ topcomment {
 }
 
 .commentreplies {
-  margin-left: 50px;
+  margin-left: 27px;
   margin-bottom: 50px;
 }
 
@@ -583,7 +583,7 @@ article.comment .downarrow.voted {
     min-width: auto;
   }
   
-  .comment:before {
+  .comment:not([style="margin-left:0px"]):before {
     content: '';
     height: 100%;
     position: absolute;
