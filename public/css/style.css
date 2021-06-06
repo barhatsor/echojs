@@ -553,13 +553,18 @@ article.comment .downarrow.voted {
   }
   
   header nav {
-    display: none;
-    position: relative !important;
+    position: absolute !important;
+    opacity: 0;
+    display: block;
+    pointer-events: none;
   }
     
   header nav.active {
-    display: block;
+    position: relative !important;
     margin-top: 10px;
+    opacity: 1;
+    transition: .2s ease;
+    pointer-events: auto;
   }
   
   header nav#account.active {
