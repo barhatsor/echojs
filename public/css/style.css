@@ -570,6 +570,7 @@ article.comment .downarrow.voted {
   header nav#account.active {
     display: flex;
     padding-top: 5px;
+    transition: .2s .1s ease, padding 0s, margin 0s;
   }
     
   header nav a {
