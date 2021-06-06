@@ -342,7 +342,9 @@ topcomment {
 
 .commentreplies h2 {
   font-size: 18px;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #edeff1;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 .commentreplies {
